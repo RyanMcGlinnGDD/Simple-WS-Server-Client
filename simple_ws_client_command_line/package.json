@@ -1,0 +1,21 @@
+{
+  "name": "simple_ws",
+  "version": "0.0.0",
+  "description": "A very simple web socket chat client",
+  "main": "./src/client.js",
+  "scripts": {
+    "start": "node ./src/client.js",
+    "pretest": "eslint ./src",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Cody Van De Mark",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.1"
+  },
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}
